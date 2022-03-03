@@ -1,0 +1,46 @@
+.\" Manpage for _printf
+.\"
+
+/* th is syntax for "the header" */
+.TH _3_printf "2 March 2022" "1.0" "_printf man page"
+
+/*
+.SH NAME
+.B _printf 
+Formatted output conversion.
+
+.SH
+
+.SH SYNOPSIS
+#ifndef MAIN_H
+#define MAIN_H
+/* Headers*/
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdarg.h>
+
+/*Prototypes*/
+int _putchar (char c);
+int _printf(const char *format, ...);
+
+#endif
+
+.SH FILES
+~/printf/main.h
+~/printf/_putchar.c
+~/printf/0-_printf
+~/printf/1-C.c
+~/printf/2-_str.c
+~/printf/3-i_and_d.c
+
+
+.SH OPTIONS
+This is a reduced version of the printf function, only containg the modifiers:
+.IP %c
+.IP %s
+.IP %d
+.IP %i
+.IP %
+
+.SH DESCRIPTION
+
