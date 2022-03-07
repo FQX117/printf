@@ -23,15 +23,15 @@ int _printf(const char *format, ...)
 		p++;
 		switch (*p)
 		{
-		case 'c': op_char(ap);
+		case 'c': _char(ap);
 			break;
-		case 's': op_string(ap);
+		case 's': _string(ap);
 			break;
 		case '%':_putchar('%');
 			break;
-		case 'd': op_numbers(ap);
+		case 'd': _numbers(ap);
 			 break;
-		case 'i':op_numbers(ap);
+		case 'i':_numbers(ap);
 		    break;
 		
 		default:

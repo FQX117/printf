@@ -1,6 +1,6 @@
 #include"main.h"
 
-int op_numbers(va_list arg)
+int _numbers(va_list arg)
 {
 	unsigned int i, p, r;
 

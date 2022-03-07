@@ -8,8 +8,8 @@
 /*Prototypes*/
 int _putchar (char c);
 int _printf(const char *format, ...);
-int op_numbers(va_list arg);
-int op_string(va_list p);
-int op_char(va_list p);
+int _numbers(va_list arg);
+int _string(va_list p);
+int _char(va_list p);
 
 #endif

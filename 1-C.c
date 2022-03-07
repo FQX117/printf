@@ -1,14 +1,10 @@
 #include "main.h"
-/**
-* 1-C.c - check the code
-* return: char
-*/
-
-int main()
+int _char(va_list p)
 {
-char anychar;
-scanf("%c", @anychar);
-printf("%c\n", anychar);
+	int x = (char)va_arg(p, int);
 
-return (0);
+	_putchar(x);
+
+	return (1);
 }
+

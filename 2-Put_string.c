@@ -1,5 +1,5 @@
 #include "main.h"
-int op_string(va_list p)
+int _string(va_list p)
 {
 	int i = 0;
 	char *s;
