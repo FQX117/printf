@@ -1,6 +1,7 @@
 #include"main.h"
 
-int _numbers(va_list arg)
+/*
+*/int _numbers(va_list arg)
 {
 	unsigned int i, p, r;
 
@@ -8,7 +9,7 @@ int _numbers(va_list arg)
     /**
      * if statment needed to make a negitive
      * sys will not put the "-" by itself and must be manual
-     * */
+     **/
 	if (n < 0)
 	{
 		_putchar('-');
