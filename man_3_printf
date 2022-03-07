@@ -9,7 +9,9 @@
 .B _printf 
 Formatted output conversion.
 
-.SH
+.SH DESCRIPTION
+This manpage is for a newly created printf function named "_printf". It is built to function like regular printf, excluding fl
+ags, extra paramaters, and some conversion specifiers.
 
 .SH SYNOPSIS
 #ifndef MAIN_H
@@ -43,4 +45,4 @@ This is a reduced version of the printf function, only containg the modifiers:
 .IP %
 
 .SH DESCRIPTION
-
+This manpage is for a newly created printf function named "_printf". It is built to function like regular printf, excluding flags, extra paramaters, and some conversion specifiers.
