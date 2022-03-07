@@ -5,11 +5,14 @@
 #include <stdarg.h>
 
 
+
 /*Prototypes*/
-int _putchar (char c);
+int _putchar (char c, int *k);
 int _printf(const char *format, ...);
-int _numbers(va_list arg);
-int _string(va_list p);
-int _char(va_list p);
+int _numbers(va_list arg, int *k);
+int _string(va_list p, int *k);
+int _char(va_list p, int *k);
+
+
 
 #endif

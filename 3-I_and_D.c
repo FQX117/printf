@@ -1,25 +1,19 @@
 #include"main.h"
 
-/*
-*/int _numbers(va_list arg)
+int _numbers(va_list arg, int *k)
 {
 	unsigned int i, p, r;
-
-	int n = va_arg(arg, int), num = 0;
-    /**
-     * if statment needed to make a negitive
-     * sys will not put the "-" by itself and must be manual
-     **/
-	if (n < 0)
+/*
+*/int n = va_arg(arg, int), num = 0;
+  if (n < 0)
 	{
-		_putchar('-');
+		_putchar(('-'), k);
 		i = n * -1;
 	}
 	else
 	{
 		i = n;
 	}
-/** end of if **/
 	p = 1;
 	r = i;
 
@@ -31,7 +25,7 @@
 
 	for (; p >= 1; p /= 10)
 	{
-		_putchar(((i / p) % 10) + '0');
+		_putchar((((i / p) % 10) + '0'), k);
 		num++;
 	}
 	return (num);
