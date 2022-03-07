@@ -1,11 +1,11 @@
 #include"main.h"
-
-int _numbers(va_list arg, int *k)
+/*
+*/int _numbers(va_list arg, int *k)
 {
 	unsigned int i, p, r;
 /*
 */int n = va_arg(arg, int), num = 0;
-  if (n < 0)
+	if (n < 0)
 	{
 		_putchar(('-'), k);
 		i = n * -1;
